@@ -1,0 +1,13 @@
+# Graylog Web Interface Config
+
+# Graylog Web Logfile:
+# GRAYLOG_WEB_LOG="/var/log/graylog/graylog-web.log"
+
+# Graylog Web PID:
+# GRAYLOG_WEB_PID="/var/run/graylog/graylog-web.pid"
+
+# Graylog Web Binary:
+# GRAYLOG_WEB_BIN="/opt/graylog-web-interface/bin/graylog-web-interface"
+
+# Java options
+# JAVAOPTS="-Dhttp.port=9000"

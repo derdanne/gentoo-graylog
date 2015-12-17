@@ -1,0 +1,15 @@
+# Graylog Server Configuration
+
+# Graylog Config:
+# GRAYLOG_CONF="/etc/graylog/graylog-server.conf"
+
+# Graylog Log:
+# GRAYLOG_LOG="/var/log/graylog/graylog-server.log"
+
+# Graylog PID:
+# GRAYLOG_PID="/run/graylog/graylog-server.pid"
+
+# Graylog Home
+# GRAYLOG_HOME="/opt/graylog-server"
+
+DEFAULT_JAVA_OPTS="-Djava.library.path=${GRAYLOG_HOME}/lib/sigar -Xms128m -Xmx1024m -XX:NewRatio=1 -XX:PermSize=128m -XX:MaxPermSize=256m -server -XX:+ResizeTLAB -XX:+UseConcMarkSweepGC -XX:+CMSConcurrentMTEnabled -XX:+CMSClassUnloadingEnabled -XX:+UseParNewGC -XX:-OmitStackTraceInFastThrow"

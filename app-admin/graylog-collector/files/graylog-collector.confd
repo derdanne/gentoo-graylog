@@ -1,0 +1,13 @@
+# Graylog Web Interface Config
+
+# Graylog Web Logfile:
+# GRAYLOG_COLLECTOR_LOG="/var/log/graylog/graylog-collector.log"
+
+# Graylog Web PID:
+# GRAYLOG_COLLECTOR_PID="/var/run/graylog/graylog-collector.pid"
+
+# Graylog Web Binary:
+# GRAYLOG_COLLECTOR_BIN="/opt/graylog-collector/bin/graylog-collector"
+
+# Graylog Collector Config:
+# GRAYLOG_COLLECTOR_CONF="/etc/graylog/graylog-collector.conf"
