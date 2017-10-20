@@ -13,6 +13,7 @@ depend() {
 
 start() {
  	checkpath --directory --owner root:root --mode 0775 /run/graylog
+	checkpath --directory --owner root:root --mode 0775 /var/log/graylog	
 
         if [ ! -e ${GRAYLOG_CONF:-/etc/graylog/graylog-server.conf} ]; then
                 eerror "${GRAYLOG_CONF:-/etc/graylog/graylog-server.conf} does not exist; cannot start Graylog"

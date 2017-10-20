@@ -1,0 +1,13 @@
+# Graylog Web Interface Config
+
+# Graylog Web Logfile:
+# GRAYLOG_COLLECTOR_SIDECAR_LOG="/var/log/graylog/collector-sidecar/collector-sidecar.log"
+
+# Graylog Web PID:
+# GRAYLOG_COLLECTOR_PID="/var/run/graylog/graylog-collector-sidecar.pid"
+
+# Graylog Web Binary:
+# GRAYLOG_COLLECTOR_BIN="/opt/graylog-collector-sidecar/bin/graylog-collector-sidecar"
+
+# Graylog Collector Config:
+# GRAYLOG_COLLECTOR_CONF="/etc/graylog/collector-sidecar/collector_sidecar.yaml"
